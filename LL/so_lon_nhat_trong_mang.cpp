@@ -14,12 +14,13 @@ int main ()
 	
 	for (int i =0;i<n;i++)// duyt mang
 	{
-			printf("\nnhap  so nguyen %d ",i+1);	
+			printf("\n Nhap vao phan tu a[%d] ",i);	
 		scanf("%d",&arr[i]);
 	
 	}
 	// hien thi gia tri lon nhat 
 		high=arr[0];
+		
 	
 	for (int i=1;i<n;i++){
 		
@@ -30,8 +31,7 @@ int main ()
 		} if (arr[i] >m && arr[i] < high)
 		{
 			m=arr[i];
-		}
-		
+		}	
 	}
 	
 	printf("\n gia tri max %d",high);
